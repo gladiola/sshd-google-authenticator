@@ -4,6 +4,8 @@ Config files for using FreeBSD with Google Authenticator to challenge and reply 
 # Use of these files
 These files are used with the installation of the pam_google_authenticator port on FreeBSD.  The desired result is to configure the prompting on login for an ssh key followed by a verification code.  
 
+These files are the result of working some tutorials on configuring Google Authenticator for use with FreeBSD sshd.  They are not meant to be complete instructions for the installation of those programs.  These sample config files are provided because most example configurations used passwords instead of ssh keys.
+
 # Warnings
 Incorrect configuration of these files can result in a few kinds of failures.  They include:
 - continuous prompting for a password, even if one was not set
