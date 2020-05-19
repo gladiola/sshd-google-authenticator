@@ -6,4 +6,4 @@ ChallengeResponseAuthentication yes
 UsePAM yes
 Subsystem	sftp	/usr/libexec/sftp-server
 AuthenticationMethods publickey,keyboard-interactive:pam
-UseBlacklist yes
+
